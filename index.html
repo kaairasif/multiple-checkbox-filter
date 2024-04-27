@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="item" data-filtertype="filter-a">
+        <h2>Type: A</h2>
+        <ul>
+          <li data-itemid="1">
+            <label for="filter-1"
+              ><input id="filter-1" type="checkbox" />AA</label
+            >
+          </li>
+          <li data-itemid="2">
+            <label for="filter-2"
+              ><input id="filter-2" type="checkbox" />AB</label
+            >
+          </li>
+          <li data-itemid="3">
+            <label for="filter-3"
+              ><input id="filter-3" type="checkbox" />AC</label
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="item" data-filtertype="filter-b">
+        <h2>Type: B</h2>
+        <ul>
+          <li data-itemid="4">
+            <label for="filter-4"
+              ><input id="filter-4" type="checkbox" />BA</label
+            >
+          </li>
+          <li data-itemid="5">
+            <label for="filter-5"
+              ><input id="filter-5" type="checkbox" />BB</label
+            >
+          </li>
+          <li data-itemid="6">
+            <label for="filter-6"
+              ><input id="filter-6" type="checkbox" />BC</label
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="item" data-filtertype="filter-c">
+        <h2>Type: C</h2>
+        <ul>
+          <li data-itemid="7">
+            <label for="filter-7"
+              ><input id="filter-7" type="checkbox" />CA</label
+            >
+          </li>
+          <li data-itemid="8">
+            <label for="filter-8"
+              ><input id="filter-8" type="checkbox" />CB</label
+            >
+          </li>
+          <li data-itemid="9">
+            <label for="filter-9"
+              ><input id="filter-9" type="checkbox" />CC</label
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <form id="input-form" role="form" action="" class="margin-top-fortypx">
+      <div class="checkbox checkbox-container">
+        <label class="checkbox-label" for="1">
+          <input
+            type="checkbox"
+            id="1"
+            name="a"
+            class="remove-bootstrap checkbox-circle margin-right checkbox-js"
+            value="Option #1"
+          />
+          Option #1
+        </label>
+      </div>
+
+      <div class="checkbox checkbox-container">
+        <label class="checkbox-label" for="2">
+          <input
+            type="checkbox"
+            id="2"
+            name="b"
+            class="remove-bootstrap checkbox-circle margin-right checkbox-js"
+            value="Option #2"
+          />
+          Option #2
+        </label>
+      </div>
+      <div class="checkbox checkbox-container">
+        <label class="checkbox-label" for="3">
+          <input
+            type="checkbox"
+            id="3"
+            name="c"
+            class="remove-bootstrap checkbox-circle margin-right checkbox-js"
+            value="Option #3"
+          />
+          Option #3
+        </label>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
